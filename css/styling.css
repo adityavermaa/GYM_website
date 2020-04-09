@@ -1,0 +1,94 @@
+.left {
+    float: left;
+    display: inline-block;
+    position: absolute;
+    /* border: 16px solid #8c8c8c; */
+    left: 91px;
+    top: 100px;
+    width: 737px;
+    height: 585px;
+    padding-left: 10px;
+    border-radius: 10px;
+    background-image: url(gymlogo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: black;
+    background-size: 836px;
+    padding-top: 10px;
+    margin-top: 10px;
+    box-shadow: 0px 2px 61px 5px #82230e;
+    border-radius: 41px;
+}
+
+.mid {
+    border-radius: 41px;
+    display: block;
+    width: 50%;
+    margin: 20px auto;
+    margin-top: 117px;
+    background-color: black;
+    text-align: center;
+    box-shadow: 0px 2px 61px 5px #82230e;
+}
+
+.right {
+    border: 10px solid #82230e;
+    display: inline-block;
+    position: absolute;
+    right: 91px;
+    top: 100px;
+    height: 200px;
+    width: 1000px;
+    /* float: right; */
+    padding-left: 200px;
+}
+
+.btn_callusnow {
+    margin-top: 0px 9px;
+    background-color: black;
+    color: white;
+    height: 200px;
+    width: 400px;
+    font-size: 50px;
+    display: inline-block;
+    background-position: center;
+    margin-right: 90px;
+}
+
+.btn_email {
+    margin-top: 0px 9px;
+    background-color: black;
+    color: white;
+    height: 200px;
+    width: 400px;
+    font-size: 50px;
+    display: inline-block;
+    background-position: center;
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    color: white;
+    display: inline-block;
+    font-size: 100px;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 34px 100px;
+    margin: 25px;
+}
+
+.navbar li a:hover, {
+    color: ;
+}
+
+.navbar li a.active {
+    color: rgb(255, 0, 0);
+    text-decoration: underline;
+}

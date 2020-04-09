@@ -1,0 +1,107 @@
+.left {
+    float: left;
+    display: inline-block;
+    position: absolute;
+    /* border: 16px solid #8c8c8c; */
+    left: 22.75px;
+    top: 25px;
+    width: 184.25px;
+    height: 146.25px;
+    padding-left: 2.5px;
+    /* border-radius: 2.5px; */
+    background-image: url(gymlogo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: black;
+    background-size: 209px;
+    padding-top: 2.5px;
+    margin-top: 2.5px;
+    box-shadow: 0px -0.5px 62.25px -3.75px #82230E;
+    border-radius: 10.25px;
+}
+
+.mid {
+    border-radius: 10.25px;
+    display: block;
+    
+    width: 50%;
+    margin: 5px auto;
+    margin-top: 29.25px;
+    background-color: black;
+    text-align: center;
+    box-shadow: 0px -0.5px 52.25px -2.75px #82230E;
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    color: white;
+    display: inline-block;
+    font-size: 25px;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 8.5px 25px;
+    margin: 6.25px;
+}
+
+.navbar li a:hover, {
+    color: ;
+}
+
+.navbar li a.active {
+    color: rgb(255, 0, 0);
+    text-decoration: underline;
+}
+
+.emailbox {
+    /* border: 2px solid red; */
+    float: right;
+    display: inline-block;
+    right: 33px;
+    position: absolute;
+    top: 50px;
+    background-color: black;
+}
+
+.callbox {
+    /* border: 2px solid red; */
+    float: right;
+    display: inline-block;
+    right: 160px;
+    position: absolute;
+    top: 50px;
+    background-color: black;
+}
+
+.btn_email {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 20px;
+    /* box-shadow: 0px 0.5px 15.25px 1.25px #82230e; */
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+
+.btn_callusnow {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 20px;
+    /* box-shadow: 0px -0.5px 62.25px -3.75px #82230E; */
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+.btn_callusnow:hover {
+    background-color: #82230e;
+    box-shadow: 0px -0.5px 62.25px -3.75px #82230E;
+  }
+
+.btn_email:hover {
+    background-color: #82230e;
+    box-shadow: 0px -0.5px 62.25px -3.75px #82230E;
+  }
